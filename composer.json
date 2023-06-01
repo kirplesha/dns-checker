@@ -1,0 +1,29 @@
+{
+    "name": "kirplesha/dns-checker",
+    "description": "Laravel package for check dns information",
+    "autoload": {
+        "psr-4": {
+            "kirplesha\\DnsChecker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "kirplesha\\DnsChecker\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kirplesha"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kirplesha\\DnsChecker\\DnsCheckerServiceProvider"
+            ]
+        }
+    }
+}
